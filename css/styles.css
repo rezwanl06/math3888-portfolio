@@ -1,0 +1,208 @@
+body {
+    text-align: center;
+    background-image: linear-gradient(white, #d3d3d3);
+}
+
+h1, h2, h3, .navbar {
+    font-family: 'Quattrocento Sans', sans-serif;
+    line-height: 1.5;
+}
+
+.title, #heading-title {
+    background-color: gray;
+    opacity: .5;
+    color: #fff;
+}
+
+p .contributions td {
+    font-family: "Mulish", sans-serif;
+    padding: 0 3%;
+}
+
+.container-fluid {
+    padding: 5%;
+}
+
+.overview-img {
+    width: 100%;
+    height: 100%;
+}
+
+.button-text, .button-text:hover {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    padding-top: 2%;
+}
+
+.col-lg-6 {
+    padding: 1% 0 2% 0;
+}
+
+figcaption {
+    font-style: italic;
+    padding: 0 2%;
+}
+
+table tr td, th{
+    border: 2px solid;
+    background-color: #fff;
+}
+
+table {
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+}
+
+td tr {
+    text-align: center;
+    width: 200px;
+}
+
+th {
+    background-color: #d3d3d3;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #fff;
+    justify-content: center;
+    position: fixed;
+    left: 20%;
+    right: 20%;
+    z-index: 1;
+}
+
+.dropdown-menu {
+    border: none;
+}
+
+@media screen and (max-width:805px) {
+    .navbar {
+        text-align: center;
+    }
+
+    .dropdown-item {
+        text-align: center;
+    }
+
+    table {
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+    }
+
+    td, th {
+        width: 150px;
+    }
+}
+
+/* Page heading */
+.page-heading {
+    padding-top: 10%;
+}
+
+.index-pg-heading, .references-pg-heading, .team-pg-heading {
+    background-image: url("../images/vector.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.conclusions-pg-heading {
+    background-image: url("../images/conclusion.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.interdisciplinary-pg-heading {
+    background-image: url("../images/handshake.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-pg-heading {
+    background-image: url("../images/ideas.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.biochem-pg-heading {
+    background-image: url("../images/biochemical-background.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.math-pg-heading {
+    background-image: url("../images/maths-background.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Interdisciplinary Strategy section */
+.strategy-section {
+    background-image: url("../images/handshake.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 10%;
+}
+
+.strategy{
+    background-color: #4C4E52;
+    opacity: 0.5;
+    color: #fff;
+}
+
+/* Experiments Section */
+.experiments-img {
+    width: 50%;
+}
+
+/* Team Section */
+.team {
+    top: 40%;
+}
+
+.team-section {
+    background-image: url("../images/team.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* References */
+#references {
+    padding: 2% 9% 2% 7%;
+}
+
+.reference-item {
+    padding: 1% 0;
+}
+
+
+/* Team */
+.team-img {
+    width: 70%;
+    height: 40%;
+}
+
+.col-md-6 {
+    padding: 0 5% 5% 5%;
+}
+
+/* Biochemical Experiments */
+.biochem-img {
+    width: 60%;
+    height: 50%;
+}
+
+/* Mathematical Experiments */
+.maths-img {
+    width: 50%;
+    height: 50%;
+}
+
+.wrapper {
+    float: left;
+}

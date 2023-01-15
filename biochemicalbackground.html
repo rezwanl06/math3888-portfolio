@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--Link Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!--Google Fonts links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&family=Quattrocento+Sans:wght@700&display=swap" rel="stylesheet">
+
+    <!--Link custom CSS-->
+    <link href="css/styles.css" rel="stylesheet">
+    <title>Biochemical Background</title>
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg">
+        <div>
+          <a class="navbar-brand">GROUP G</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Project Overview</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="backgroundinformation.html">Background Information</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="interdisciplinarywork.html">Interdisciplinary Work</a>
+                </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Experiments
+                </a>
+                <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink">
+                  <li><a class="dropdown-item" href="biochemicalbackground.html">Biochemical Experiments</a></li>
+                  <li><a class="dropdown-item" href="mathematicalbackground.html">Mathematical Experiments</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  More
+                </a>
+                <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink">
+                  <li><a class="dropdown-item" href="conclusions.html">Conclusions</a></li>
+                  <li><a class="dropdown-item" href="#">Team</a></li>
+                  <li><a class="dropdown-item" href="references.html">References</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!--Heading-->
+      <div class="container-fluid page-heading biochem-pg-heading">
+        <div id="heading-title">
+            <h1><strong>Biochemical Background</strong></h1>
+        </div>
+      </div>
+
+      <div class="container-fluid overview-container-fluid">
+        <h3>Overview</h3>
+        <p>
+            Pyruvate dehydrogenase deficiency is rare disease with no proven specific treatments. Hence, through the use of a variety of experimental techniques and models, we aimed to investigate the causes and potential treatments of the disease.
+        </p>
+        <br>
+        <p>
+            To analyse the causes of pyruvate dehydrogenase deficiency, experiment 1 and 2 focused on the protein-protein interactions of our target proteins. We analysed the biological significance of our target proteins (DLAT, LIAS, LIPT1 and NFU1) and the major target proteins found by the mathematics students (LIPT2 and PDP1/2) to the activity of PDC and the presence of PDC deficiency. In experiment 1, a yeast-2-hybrid analysis in Saccharomyces cerevisiae was performed to identify and confirm the key protein-protein interactions between the yeast homologs of our six proteins. In experiment 2, a mutagenesis study in human cells was performed as a functional investigation of the role of these proteins on metabolic enzymes and energy metabolism.
+        </p>
+        <br>
+        <p>
+            To investigate the potential of lipoic acid as a treatment for PDC deficiency, experiment 3 and 4 were focused on testing the effect of a high lipoic acid diet on models of PDC deficiency. We suggested that as lipoic acid is an essential cofactor for the activity of PDC, treatment with lipoic acid may be beneficial for the treatment of the disease. In experiment 3, the molecular effects of lipoic acid treatment in Saccharomyces cerevisiae was analysed. In experiment 4, a mouse model of PDC deficiency was created to test the effect of a high lipoic acid diet on the disease phenotype.
+        </p>
+      </div>
+
+      <div class="container-fluid overview-container-fluid">
+        <h3>Experiment 1: Protein interactions in yeast</h3>
+        <p>
+            During our first experiment, we tested target protein interactions in yeast models. Initially we grew yeast cells following the protocol set out by Nielson (2014) and aliquoted them into 3 samples. Then, to understand the impact of our target proteins on PDC activity, we performed knockout experiments on each of our target proteins, and the highly interacting proteins found by the mathematical modelling: LAT1, LIP2, LIP5, PTC5, AIM22 and NFU1. Using the first sample of yeast cells, the target proteins were knocked out using CRISPR-Cas9 mutagenesis. Cas9 and four sgRNAs which corresponded with our four target genes were used. This system cleaves exons in target genes to induce mutations (Ran et al. 2013). Positive controls containing the wild-type proteins and negative controls without yeast cells were used. The yeast samples, including cells with target mutants and normal cells, were grown in YPD, YPG and YS culture (according to table below). PDH assays were used to measure PDH activity changes as a result of mutation.
+        </p>
+        <br>
+        <table>
+            <tr>
+                <th>
+                    Group
+                </th>
+                <th>
+                    YPD
+                </th>
+                <th>
+                    YPG
+                </th>
+                <th>
+                    YS
+                </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Positive control</td>
+                <td>Positive control</td>
+                <td>Positive control</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Negative control</td>
+                <td>Negative control</td>
+                <td>Negative control</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>LAT1 mutant</td>
+                <td>LAT1 mutant</td>
+                <td>LAT1 mutant</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>LIP2 mutant</td>
+                <td>LIP2 mutant</td>
+                <td>LIP2 mutant</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>LIP5 mutant</td>
+                <td>LIP5 mutant</td>
+                <td>LIP5 mutant</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>PTC5 mutant</td>
+                <td>PTC5 mutant</td>
+                <td>PTC5 mutant</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>AIM22 mutant</td>
+                <td>AIM22 mutant</td>
+                <td>AIM22 mutant</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>NFU1 mutant</td>
+                <td>NFU1 mutant</td>
+                <td>NFU1 mutant</td>
+            </tr>
+        </table>
+        <br>
+        <p>
+            With the next yeast aliquot, we tested for positive protein interactions. The yeast cells were lysed, allowing the amount and quality of expressed protein to be determined accurately. Yeast two-hybrid assays were performed, following the protocol set out by Jain et al., to visualise the interactions between LAT1, LIP2, LIP5, PTC5, AIM22 and NFU1 (2020).
+        </p>
+        <br>
+        <img class="biochem-img" src="images/biochem-exp-1.png">
+        <figcaption>Figure 1: The principles of yeast two-hybrid screening (Yang). A) DNA-binding domain (DB) and activation domain (AD) interact with each other for their functional and structural independence. DB binds to a certain section upstream of reporter genes. AD activates reporter gene expression. B) AD cannot bind to the receptor gene without Bait-Prey (Bait is the query protein fused with AD; Prey is a protein library fused with AD) interaction. C) AD activates reporter genes by DB-AD interaction with Bait-Prey interaction.</figcaption>
+        <br>
+        <p>
+            Finally, with our last aliquot, we performed a co-IP protein pull-down experiment to confirm the physical interactions of these proteins and furthermore, the findings of the mathematical modelling. Yeast cells were incubated with a target protein antibody, and associated proteins pulled down by immunoprecipitation were examined by Western blotting. A negative control with no yeast was used, and the experiment was repeated for each of the 4 target proteins. The western blotting targets included LAT1 (the E2 subunit of PDC), LIP5 (the lipoyl synthase), and LIP2 and PTC5 (the proteins identified by mathematical modelling).
+        </p>
+        <br>
+        <p>
+            According to the mathematical modelling, we expect to see a positive interaction between our 4 target proteins and PTC5 and LIP2. Additionally, with the direct interaction of these proteins to LAT1 and the PDC complex, we expect to see a decrease in PDC activity upon knockout of our 4 proteins.
+        </p>
+      </div>
+
+      <div class="container-fluid overview-container-fluid">
+        <h3>Experiment 2: Mutagenesis in human cells</h3>
+        <p>
+            Our second experiment tested the effect of mutations in the LIAS protein. In order to demonstrate the functional relevance of the LIAS protein, we expressed either the wild-type or the mutated human lipoic acid synthetase in the iPSCs using CRISPR gene editing to induce mutations. We followed the protocol and cell preparation as set out by Long & Cech (2021), with adjustment to fit our proteins.
+        </p>
+        <br>
+        <img class="biochem-img" src="images/biochem-exp-2.png">
+        <figcaption>Figure 2. Genome editing procedure to introduce gene mutations in human iPSCs by Long and Cech (2021)</figcaption>
+        <br>
+        <p>
+            The CRIPSR system used in this protocol is the conventional Cas9 from Streptococcus pyogenes (SpCas9), which has been widely used in editing of mammalian genomes due to the commonly found PAM sequence (NGG). We tested the effects of 3 mutations, separately, on the LIAS gene: ARG249HIS, GLU159LYS, ASP215GLU, which are 3 commonly reported mutations in PDCD patients. We used the same positive and negative controls as described in experiment 1, and designed the following primers to introduce each point mutations:
+        </p>
+        <br>
+        <table>
+            <tr>
+                <th>Primer Pair</th>
+                <th>Value</th>
+            </tr>
+            <tr>
+                <td>1. ARG249HIS</td>
+                <td><p style="color: blue;">CCAGTAAGGTTCGTGATCCTCGG</p><br><p style="color: red;">TGTACTGAAACATGCCAAGAAGG</p></td>
+            </tr>
+            <tr>
+                <td>2.2. GLU159LYS</td>
+                <td><p style="color: blue;">CCTCCACTGGATGCCAGTGAGCC</p><br><p style="color: red;">TGCAAAGGCAATTGCAGAATGGG</p></td>
+            </tr>
+            <tr>
+                <td>3. ASP215GLU</td>
+                <td><p style="color: blue;">CCTTGTGGAGTGTCTTACTCCTG</p><br><p style="color: red;">ATAGAAAAAGTTGCTCTGTCAGG</p></td>
+            </tr>
+        </table>
+        <br>
+        <img class="biochem-img" src="images/biochem-exp-3.png">
+        <figcaption>Figure 3. Schematic design for genome editing of point mutations using CRISPR-Cas9 by Long and Cech (2021) . Strategy 1 is used to introduce point mutations. SpCas9 is used to generate a double-stranded break at an early exon-intron junction (e.g., exon 2 and intron 2), and homologous recombination fuses the remaining cDNA with the mutations to the end of this exon along with a LoxP-flanked selection cassette. A wild type control is made exactly the same way but without the mutations.</figcaption>
+        <br>
+        <p>
+            Following transfection, drug selection, colony isolation and screening, and validation, we applied these clones to various downstream analyses: 
+            <ul>
+                <li>Differentiation into muscle cells, fibroblasts and neural cells to see the functional relevance of LIAS on PDCD symptoms, compared to wildtype.</li>
+                <li>Proteomic and metabolomic analysis to see changes in the protein network of LIAS + changes in metabolism due to mutation (measuring catalysis of reactions and individual enzyme activities), compared to wildtype.</li>
+        </p>
+        <br>
+        <p>
+            ​Previous literature suggests that these mutations induce PDCD symptoms of hyperglycinemia, lactic acidosis, and seizures, and thus, we expect to observe similar changes in protein and metabolic interactions upon functional analysis (Mayr et al., 2011)
+        </p>
+      </div>
+
+      <div class="container-fluid overview-container-fluid">
+        <h3>Experiment 3: Lipoic acid diet in PDC deficient yeast</h3>
+        <p>
+            ​Our third experiment tested the effect of a lipoic acid in yeast modelled with pyruvate dehydrogenase complex deficiency (PDCD), using the yeast strains LAT1, LIP5, AIM22 and NFU1.
+        </p>
+        <br>
+        <img class="biochem-img" src="images/biochem-exp-4.png">
+        <figcaption>Figure 4: Lipoylation in yeast strains showcasing the suppressor constructs (mitochondrially targeted LplA or Fam1/ Faa2) under supplementation conditions. After lipoic acid (LA) has passed through the mitochondrial membranes, LplA activates it with AMP and transfers the lipoyl moiety onto Lat1, which is used as a substrate by Lip3 for Kgd2-lipoylation (Pietikäinen et al. 2021).</figcaption>
+        <br>
+        <p>
+            PDA1 was disrupted from the yeast strains by polymerase chain reaction (PCR) using the primers 5′-GGTGGCAAATAGCTTCCTCT-3′ and 5′-TTGCCAAACATGACTCGGGA-3′ and flanking PDA1 from the region, therefore mimicking the mechanisms of PDCD. The yeast cells were grown in rich media (YPG) and synthetic media (SCG). YPG and SCG were added with either 0%, 0.5% or 1% of lipoic acid (LA) and all liquid cultures were grown at 30°C with vigorous shaking. Yeast spotting assays were used to observe the growth rate of yeast colonies in SCG-URA, SCG-URA + 0.5% LA, SCG-URA + 1% LA,  YPG and YPG + 0.5% LA and YPG +1% LA through serial dilutions, as shown in the table below. Western Blot analysis was used to analyse the lipoylated protein in the lipoylation mutant strains.​
+        </p>
+        <br>
+        <table>
+            <tr>
+                <th>Treatment</th>
+                <th>YPG</th>
+                <th>YPG +0.5% LA</th>
+                <th>YPG +1% LA</th>
+                <th>SCG-URA</th>
+                <th>SCG-URA +0.5% LA</th>
+                <th>SCG-URA +1% LA</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>LAT1 mutant</td>
+                <td>LAT1 mutant</td>
+                <td>LAT1 mutant</td>
+                <td>LAT1 mutant</td>
+                <td>LAT1 mutant</td>
+                <td>LAT1 mutant</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>LIP5 mutant</td>
+                <td>LIP5 mutant</td>
+                <td>LIP5 mutant</td>
+                <td>LIP5 mutant</td>
+                <td>LIP5 mutant</td>
+                <td>LIP5 mutant</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>AIM22 mutant</td>
+                <td>AIM22 mutant</td>
+                <td>AIM22 mutant</td>
+                <td>AIM22 mutant</td>
+                <td>AIM22 mutant</td>
+                <td>AIM22 mutant</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>NFU1 mutant</td>
+                <td>NFU1 mutant</td>
+                <td>NFU1 mutant</td>
+                <td>NFU1 mutant</td>
+                <td>NFU1 mutant</td>
+                <td>NFU1 mutant</td>
+            </tr>
+        </table>
+        <br>
+        <p>
+            Studies have suggested that the addition of lipoic acid to yeast has no effect and that supplementation provides no improvement on lipoylation in the yeast strains (Pietikäinen et al. 2021). From these observations, this experiment could possibly showcase a similar outcome. ​
+        </p>
+      </div>
+
+      <div class="container-fluid overview-container-fluid">
+        <h3>Experiment 4: Lipoic acid diet in PDC deficient mice</h3>
+        <p>
+            For our final experiment, we decided to test the effect of a high lipoic acid diet in a mouse model of pyruvate dehydrogenase complex deficiency (PDCD). The Cre-loxP system was used to knock out the PDHA1 gene encoding the E1-alpha PDH subunit. Floxed female mice were bred with cre-transgenic male mice to generate PDC-deficient female mice with single deleted PDHA1 gene. As the PDHA1 gene is located on the X chromosome, the knockout was lethal for male offspring.
+        </p>
+        <br>
+        <img class="biochem-img" src="images/biochem-exp-5.png">
+        <figcaption>Figure 5: Cre-loxP system for gene knockout in mice (Zepper 2008)</figcaption>
+        <br>
+        <p>
+            ​PDC deficient mice and control mice were divided into groups and fed diets with different percentages of lipoic acid as shown in the table below.
+        </p>
+        <br>
+        <table>
+            <tr>
+                <th>Mouse type</th>
+                <th>Lipoic acid in diet (%)</th>
+            </tr>
+            <tr>
+                <td>PDC-deficient</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>PDC-deficient</td>
+                <td>0.25</td>
+            </tr>
+            <tr>
+                <td>PDC-deficient</td>
+                <td>0.5</td>
+            </tr>
+            <tr>
+                <td>Normal</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Normal</td>
+                <td>0.25</td>
+            </tr>
+            <tr>
+                <td>Normal</td>
+                <td>0.5</td>
+            </tr>
+        </table>
+        <br>
+        <p>
+            Blood samples were taken to measure lactate concentration and assess the severity of lactic acid build-up. Behavioural indicators such a locomoter activity and startle response were also measured.
+        </p>
+        <br>
+        <p>
+            Previous studies investigating mouse models of pyruvate dehydrogenase deficiency have shown that PDC activity was reduced in the brain and other tissues in female progeny compared to control females. The mice had normal locomoter activity but displayed abnormal startle responses (Pliss et al. 2013). There is very limited research on the effect of lipoic acid supplementation on PDC-deficiency phenotypes in mice, but some human cases of PDH-deficiency have been described as responsive to lipoic acid supplementation (Byrd et al. 1989; Yoshida et al. 1990). Hence, due to the genetic and structural similarities between humans and mice, this effect may translate into the mouse model used in this experiment. This may be further supported by the presence of a mammalian lipoic acid scavenging pathway which allows cells to utilise exogenous lipoic acid (Storm & Muller 2012).
+        </p>
+      </div>
+
+
+      <footer>
+        <p>Copyright Rezwan 2022.</p>
+      </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</html>
